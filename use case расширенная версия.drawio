@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T09:19:29.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vaA-mI1NSHtX9hkY_o2v" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T09:26:36.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y-q5Bl6dBGdLb23C_6j0" version="21.1.7" type="github">
   <diagram name="Страница 1" id="cvt_O0929-rY-0lYx0nN">
-    <mxGraphModel dx="1687" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TK4yZgapruFNAz4to_jF-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1196" width="430" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="xGtn8Q8a9lthBhABmI1u-153" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="850" y="1080" width="370" height="90" as="geometry" />
         </mxCell>
@@ -201,6 +204,9 @@
         </mxCell>
         <mxCell id="xGtn8Q8a9lthBhABmI1u-39" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;удалить МКА&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="565.28" y="1206" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TK4yZgapruFNAz4to_jF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="xGtn8Q8a9lthBhABmI1u-40" target="TK4yZgapruFNAz4to_jF-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xGtn8Q8a9lthBhABmI1u-40" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;изменить МКА&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="562.64" y="1320" width="120" height="70" as="geometry" />
@@ -462,9 +468,6 @@
         <mxCell id="TK4yZgapruFNAz4to_jF-4" value="удаление выбранного МКА" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1140" y="1200.38" width="120" height="81.25" as="geometry" />
         </mxCell>
-        <mxCell id="TK4yZgapruFNAz4to_jF-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="840" y="1196" width="430" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="TK4yZgapruFNAz4to_jF-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="xGtn8Q8a9lthBhABmI1u-39" target="TK4yZgapruFNAz4to_jF-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="980" y="1430" as="sourcePoint" />
@@ -473,7 +476,7 @@
         </mxCell>
         <mxCell id="TK4yZgapruFNAz4to_jF-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TK4yZgapruFNAz4to_jF-7">
           <mxGeometry x="0.2244" y="1" relative="1" as="geometry">
-            <mxPoint x="-30" y="1" as="offset" />
+            <mxPoint x="-20" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TK4yZgapruFNAz4to_jF-9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
@@ -485,7 +488,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TK4yZgapruFNAz4to_jF-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="780.28" y="1270.9999999999998" as="geometry">
+          <mxGeometry x="780.28" y="1272" as="geometry">
             <mxPoint x="-20" y="-352" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -512,6 +515,27 @@
           <mxGeometry x="770" y="343" as="geometry">
             <mxPoint x="2" y="-48" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TK4yZgapruFNAz4to_jF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TK4yZgapruFNAz4to_jF-18" target="TK4yZgapruFNAz4to_jF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TK4yZgapruFNAz4to_jF-18" value="выбрать МКА для редактирования" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1314.3700000000001" width="130" height="81.25" as="geometry" />
+        </mxCell>
+        <mxCell id="TK4yZgapruFNAz4to_jF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TK4yZgapruFNAz4to_jF-19" target="TK4yZgapruFNAz4to_jF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TK4yZgapruFNAz4to_jF-19" value="переход в режим редактирования" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1314.3700000000001" width="120" height="81.25" as="geometry" />
+        </mxCell>
+        <mxCell id="TK4yZgapruFNAz4to_jF-20" value="изменение выбранного МКА" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1314.3700000000001" width="120" height="81.25" as="geometry" />
+        </mxCell>
+        <mxCell id="TK4yZgapruFNAz4to_jF-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1310" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TK4yZgapruFNAz4to_jF-25" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="760.0027586206872" y="1355" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
