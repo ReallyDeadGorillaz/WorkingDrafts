@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2023-10-18T13:07:35.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="W1mfzrU1DdFPp5SggoWi" version="22.0.4" type="github">
+  <diagram name="Страница — 1" id="Q0_sUC8J37lUB4uww2TP">
+    <mxGraphModel dx="1562" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="onkZCK1fPBk_Dburkxow-1" value="МКА" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="180" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-5" value="Приборы (массив имен приборов)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-6" value="Владелец (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-7" value="Производитель (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-8" value="Задача_МКА (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-9" value="Unit (int)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-10" value="Год_запуска (int)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-11" value="Статус_МКА (int)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-13" value="Проект (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="270" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-4" value="Название_МКА (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-1" vertex="1">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-2" value="Приборы" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="520" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-14" value="Функции_прибора (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-2" vertex="1">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-15" value="УГТ (int)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-2" vertex="1">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-16" value="Характеристики_прибора (пары ключ (string)&amp;nbsp; и значение (string))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-2" vertex="1">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-17" value="Тип_прибора (int)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-2" vertex="1">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-19" value="Название_прибора (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-2" vertex="1">
+          <mxGeometry y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-20" value="Владелец (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-2" vertex="1">
+          <mxGeometry y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-21" value="Производитель (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-2" vertex="1">
+          <mxGeometry y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-3" value="Файлы" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="790" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-22" value="Имя_связанной_сущности (string)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-3" vertex="1">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-23" value="Тип (int)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-3" vertex="1">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-24" value="Содержимое_файла (массив byte)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="onkZCK1fPBk_Dburkxow-3" vertex="1">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="onkZCK1fPBk_Dburkxow-4" target="onkZCK1fPBk_Dburkxow-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="255" />
+              <mxPoint x="180" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onkZCK1fPBk_Dburkxow-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="onkZCK1fPBk_Dburkxow-19" target="onkZCK1fPBk_Dburkxow-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="685" />
+              <mxPoint x="200" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZ2CKzk2Z56Vfo_g2b2D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="onkZCK1fPBk_Dburkxow-5" target="onkZCK1fPBk_Dburkxow-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="225" />
+              <mxPoint x="440" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZ2CKzk2Z56Vfo_g2b2D-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="385" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ2CKzk2Z56Vfo_g2b2D-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="605" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ2CKzk2Z56Vfo_g2b2D-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="815" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ2CKzk2Z56Vfo_g2b2D-7" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Допустимые значения: &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0 – не задан;&lt;br&gt;&lt;/span&gt;1&amp;nbsp;–&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;полезная нагрузка;&lt;br&gt;&lt;/span&gt;2&amp;nbsp;–&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;служебные системы.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="610" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ2CKzk2Z56Vfo_g2b2D-8" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Допустимые значения: &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0 – 2D изображение;&lt;br&gt;&lt;/span&gt;1&amp;nbsp;– 3D модель&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="820" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ2CKzk2Z56Vfo_g2b2D-9" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Допустимые значения: &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0 – не задан;&lt;br&gt;&lt;/span&gt;1&amp;nbsp;– активен&lt;span style=&quot;background-color: initial;&quot;&gt;;&lt;br&gt;&lt;/span&gt;2&amp;nbsp;– неактивен;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3 –&amp;nbsp;в разработке.&lt;/div&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="390" width="140" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
